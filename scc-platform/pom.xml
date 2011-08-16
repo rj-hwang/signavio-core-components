@@ -27,7 +27,7 @@
 			<groupId>org.apache.tomcat</groupId>
 			<artifactId>catalina</artifactId>
 			<version>6.0.32</version>
-			<scope>provided</scope>
+<!-- 			<scope>provided</scope> -->
 		</dependency>
 		
 		<!-- provided -->

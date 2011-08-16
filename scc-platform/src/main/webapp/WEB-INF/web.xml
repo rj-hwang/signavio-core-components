@@ -151,7 +151,7 @@
 		<welcome-file>welcome</welcome-file>
 	</welcome-file-list>
 	
-	<!-- Servlets from the Oryx Editor -->
+	<!-- Servlets from the Oryx Editor
 	<servlet>
 		<display-name>BPMN Layouter</display-name>
 		<servlet-name>BPMNLayouterServlet</servlet-name>
@@ -262,7 +262,7 @@
     <servlet-mapping>
         <servlet-name>RDF2JSONServlet</servlet-name>
         <url-pattern>/editor/rdf2json</url-pattern>
-    </servlet-mapping>
+    </servlet-mapping> -->
 
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
