@@ -280,10 +280,10 @@ public class EditorHandler extends BasisHandler {
       	  	+ "<link rel=\"Stylesheet\" media=\"screen\" href=\"" + explorerUri + "/src/css/custom-style.css\" type=\"text/css\" />\n"
       	  
     	  	+ "<!-- oryx editor -->\n"
-      	  	// EN_US is default an base language
+      	  	// zh_cn is default an base language
       	  	+ "<!-- language files -->\n"
-      	  	+ "<script src=\"" + EDITOR_URL_PREFIX + "i18n/translation_en_us.js\" type=\"text/javascript\" />\n"   
-      	  	+ "<script src=\"" + EDITOR_URL_PREFIX + "i18n/translation_signavio_en_us.js\" type=\"text/javascript\" />\n"      	  	
+      	  	+ "<script src=\"" + EDITOR_URL_PREFIX + "i18n/translation_zh_cn.js\" type=\"text/javascript\" />\n"   
+      	  	+ "<script src=\"" + EDITOR_URL_PREFIX + "i18n/translation_signavio_zh_cn.js\" type=\"text/javascript\" />\n"      	  	
       	  	+ languageFiles
       	  	+ "<script src=\"" + libsUri + "/utils.js\" type=\"text/javascript\" />\n"
       	  	+ "<script src=\"" + EDITOR_URL_PREFIX + "oryx.debug.js\" type=\"text/javascript\" />\n"

@@ -14,7 +14,7 @@ if(!ORYX.I18N.Oryx) ORYX.I18N.Oryx = {};
 
 ORYX.I18N.Oryx.title		= "Oryx";
 ORYX.I18N.Oryx.noBackendDefined	= "Caution! \nNo Backend defined.\n The requested model cannot be loaded. Try to load a configuration with a save plugin.";
-ORYX.I18N.Oryx.pleaseWait 	= "Please wait while loading...";
+ORYX.I18N.Oryx.pleaseWait 	= "正在加载请稍后...";
 ORYX.I18N.Oryx.notLoggedOn = "Not logged on";
 ORYX.I18N.Oryx.editorOpenTimeout = "The editor does not seem to be started yet. Please check, whether you have a popup blocker enabled and disable it or allow popups for this site. We will never display any commercials on this site.";
 
@@ -41,17 +41,17 @@ ORYX.I18N.Arrangement.groupA = "Alignment";
 ORYX.I18N.Arrangement.ab = "Alignment Bottom";
 ORYX.I18N.Arrangement.abDesc = "Bottom";
 ORYX.I18N.Arrangement.am = "Alignment Middle";
-ORYX.I18N.Arrangement.amDesc = "Middle";
+ORYX.I18N.Arrangement.amDesc = "水平居中对齐";
 ORYX.I18N.Arrangement.at = "Alignment Top";
 ORYX.I18N.Arrangement.atDesc = "Top";
 ORYX.I18N.Arrangement.al = "Alignment Left";
 ORYX.I18N.Arrangement.alDesc = "Left";
 ORYX.I18N.Arrangement.ac = "Alignment Center";
-ORYX.I18N.Arrangement.acDesc = "Center";
+ORYX.I18N.Arrangement.acDesc = "垂直居中对齐";
 ORYX.I18N.Arrangement.ar = "Alignment Right";
 ORYX.I18N.Arrangement.arDesc = "Right";
 ORYX.I18N.Arrangement.as = "Alignment Same Size";
-ORYX.I18N.Arrangement.asDesc = "Same Size";
+ORYX.I18N.Arrangement.asDesc = "相同大小";
 
 if(!ORYX.I18N.Edit) ORYX.I18N.Edit = {};
 
@@ -63,7 +63,7 @@ ORYX.I18N.Edit.copyDesc = "Copies the selection into an Oryx clipboard";
 ORYX.I18N.Edit.paste = "Paste";
 ORYX.I18N.Edit.pasteDesc = "Pastes the Oryx clipboard to the canvas";
 ORYX.I18N.Edit.del = "Delete";
-ORYX.I18N.Edit.delDesc = "Deletes all selected shapes";
+ORYX.I18N.Edit.delDesc = "删除";
 
 if(!ORYX.I18N.EPCSupport) ORYX.I18N.EPCSupport = {};
 
@@ -127,16 +127,16 @@ ORYX.I18N.jPDLSupport.close = "Close";
 if(!ORYX.I18N.Save) ORYX.I18N.Save = {};
 
 ORYX.I18N.Save.group = "File";
-ORYX.I18N.Save.save = "Save";
-ORYX.I18N.Save.saveDesc = "Save";
-ORYX.I18N.Save.saveAs = "Save As...";
-ORYX.I18N.Save.saveAsDesc = "Save As...";
+ORYX.I18N.Save.save = "保存";
+ORYX.I18N.Save.saveDesc = "保存";
+ORYX.I18N.Save.saveAs = "另存为...";
+ORYX.I18N.Save.saveAsDesc = "另存为...";
 ORYX.I18N.Save.unsavedData = "There are unsaved data, please save before you leave, otherwise your changes get lost!";
 ORYX.I18N.Save.newProcess = "New Process";
-ORYX.I18N.Save.saveAsTitle = "Save as...";
-ORYX.I18N.Save.saveBtn = "Save";
-ORYX.I18N.Save.close = "Close";
-ORYX.I18N.Save.savedAs = "Saved As";
+ORYX.I18N.Save.saveAsTitle = "另存为...";
+ORYX.I18N.Save.saveBtn = "保存";
+ORYX.I18N.Save.close = "关闭";
+ORYX.I18N.Save.savedAs = "另存为";
 ORYX.I18N.Save.saved = "Saved!";
 ORYX.I18N.Save.failed = "Saving failed.";
 ORYX.I18N.Save.noRights = "You have no rights to save changes.";
@@ -167,20 +167,20 @@ ORYX.I18N.Grouping.ungroupDesc = "Deletes the group of all selected Shapes";
 
 if(!ORYX.I18N.Loading) ORYX.I18N.Loading = {};
 
-ORYX.I18N.Loading.waiting ="Please wait...";
+ORYX.I18N.Loading.waiting ="请稍后...";
 
 if(!ORYX.I18N.PropertyWindow) ORYX.I18N.PropertyWindow = {};
 
-ORYX.I18N.PropertyWindow.name = "Name";
-ORYX.I18N.PropertyWindow.value = "Value";
+ORYX.I18N.PropertyWindow.name = "名称";
+ORYX.I18N.PropertyWindow.value = "值";
 ORYX.I18N.PropertyWindow.selected = "selected";
 ORYX.I18N.PropertyWindow.clickIcon = "Click Icon";
 ORYX.I18N.PropertyWindow.add = "Add";
 ORYX.I18N.PropertyWindow.rem = "Remove";
 ORYX.I18N.PropertyWindow.complex = "Editor for a Complex Type";
 ORYX.I18N.PropertyWindow.text = "Editor for a Text Type";
-ORYX.I18N.PropertyWindow.ok = "Ok";
-ORYX.I18N.PropertyWindow.cancel = "Cancel";
+ORYX.I18N.PropertyWindow.ok = "确定";
+ORYX.I18N.PropertyWindow.cancel = "取消";
 ORYX.I18N.PropertyWindow.dateFormat = "m/d/y";
 
 if(!ORYX.I18N.ShapeMenuPlugin) ORYX.I18N.ShapeMenuPlugin = {};
@@ -193,48 +193,48 @@ if(!ORYX.I18N.SyntaxChecker) ORYX.I18N.SyntaxChecker = {};
 
 ORYX.I18N.SyntaxChecker.group = "Verification";
 ORYX.I18N.SyntaxChecker.name = "Syntax Checker";
-ORYX.I18N.SyntaxChecker.desc = "Check Syntax";
-ORYX.I18N.SyntaxChecker.noErrors = "There are no syntax errors.";
+ORYX.I18N.SyntaxChecker.desc = "语法检查";
+ORYX.I18N.SyntaxChecker.noErrors = "没有语法错误。";
 ORYX.I18N.SyntaxChecker.invalid = "Invalid answer from server.";
-ORYX.I18N.SyntaxChecker.checkingMessage = "Checking ...";
+ORYX.I18N.SyntaxChecker.checkingMessage = "检查中 ...";
 
 if(!ORYX.I18N.Undo) ORYX.I18N.Undo = {};
 
 ORYX.I18N.Undo.group = "Undo";
 ORYX.I18N.Undo.undo = "Undo";
-ORYX.I18N.Undo.undoDesc = "Undo the last action";
+ORYX.I18N.Undo.undoDesc = "撤销上一操作";
 ORYX.I18N.Undo.redo = "Redo";
-ORYX.I18N.Undo.redoDesc = "Redo the last undone action";
+ORYX.I18N.Undo.redoDesc = "恢复上一操作";
 
 if(!ORYX.I18N.View) ORYX.I18N.View = {};
 
 ORYX.I18N.View.group = "Zoom";
 ORYX.I18N.View.zoomIn = "Zoom In";
-ORYX.I18N.View.zoomInDesc = "Zoom into the model";
+ORYX.I18N.View.zoomInDesc = "放大";
 ORYX.I18N.View.zoomOut = "Zoom Out";
-ORYX.I18N.View.zoomOutDesc = "Zoom out of the model";
+ORYX.I18N.View.zoomOutDesc = "缩小";
 ORYX.I18N.View.zoomStandard = "Zoom Standard";
-ORYX.I18N.View.zoomStandardDesc = "Zoom to the standard level";
+ORYX.I18N.View.zoomStandardDesc = "缩放到标准尺寸";
 ORYX.I18N.View.zoomFitToModel = "Zoom fit to model";
-ORYX.I18N.View.zoomFitToModelDesc = "Zoom to fit the model size";
+ORYX.I18N.View.zoomFitToModelDesc = "缩放到适合模型尺寸";
 
 /** New Language Properties: 08.12.2008 */
 
-ORYX.I18N.PropertyWindow.title = "Properties";
+ORYX.I18N.PropertyWindow.title = "属性";
 
 if(!ORYX.I18N.ShapeRepository) ORYX.I18N.ShapeRepository = {};
 ORYX.I18N.ShapeRepository.title = "形状";
 
-ORYX.I18N.Save.dialogDesciption = "Please enter a name, a description and a comment.";
-ORYX.I18N.Save.dialogLabelTitle = "Title";
-ORYX.I18N.Save.dialogLabelDesc = "Description";
-ORYX.I18N.Save.dialogLabelType = "Type";
-ORYX.I18N.Save.dialogLabelComment = "Revision comment";
+ORYX.I18N.Save.dialogDesciption = "请输入标题、描述和修正说明。";
+ORYX.I18N.Save.dialogLabelTitle = "标题";
+ORYX.I18N.Save.dialogLabelDesc = "描述";
+ORYX.I18N.Save.dialogLabelType = "类型";
+ORYX.I18N.Save.dialogLabelComment = "修正说明";
 
-Ext.MessageBox.buttonText.yes = "Yes";
-Ext.MessageBox.buttonText.no = "No";
-Ext.MessageBox.buttonText.cancel = "Cancel";
-Ext.MessageBox.buttonText.ok = "OK";
+Ext.MessageBox.buttonText.yes = "是";
+Ext.MessageBox.buttonText.no = "否";
+Ext.MessageBox.buttonText.cancel = "取消";
+Ext.MessageBox.buttonText.ok = "确定";
 
 if(!ORYX.I18N.Perspective) ORYX.I18N.Perspective = {};
 ORYX.I18N.Perspective.no = "No Perspective"
