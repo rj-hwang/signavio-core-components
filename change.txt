@@ -1,0 +1,24 @@
+#######################################################################
+# 
+# signavio-core-components 变更日志
+# https://github.com/rongjihuang/signavio-core-components
+# 说明：此仓库是http://code.google.com/p/signavio-core-components/的修改版
+# 主要修改项：
+#     1) 使用git版本管理
+#     2) 使用maven管理依赖包
+#     3) 汉化
+# 
+#######################################################################
+release v0.1 (2011-8-16)
+修改项：
+1) 基于svn仓库http://code.google.com/p/signavio-core-components/，版本号53。
+2) 修改了trunk\editor\src\scripts\Core\SVG\label.js文件，避免乱码导致的问题。
+
+新特征：
+1) 
+
+改进：
+1) 
+
+修正：
+1) 

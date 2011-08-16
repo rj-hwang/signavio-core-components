@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.signavio.corecomponents</groupId>
+		<artifactId>scc-parent</artifactId>
+		<version>0.1-SNAPSHOT</version>
+		<relativePath>scc-parent/pom.xml</relativePath>
+	</parent>
+	<artifactId>signavio-core-components</artifactId>
+	<packaging>pom</packaging>
+	<name>signavio-core-components</name>
+	<modules>
+		<module>scc-parent</module>
+		<module>scc-platform-extension-diagram</module>
+		<module>scc-platform-extension-jpdl</module>
+		<module>scc-platform-extension-syntaxchecker</module>
+		<module>scc-platform-extension-bpmn2_0</module>
+		<module>scc-platform</module>
+	</modules>
+	<scm>
+		<connection>scm:git:git://github.com/rongjihuang/signavio-core-components.git</connection>
+		<developerConnection>scm:git:[fetch=]git://github.com/rongjihuang/signavio-core-components.git[push=]git@github.com:rongjihuang/signavio-core-components.git</developerConnection>
+		<url>https://github.com/rongjihuang/signavio-core-components</url>
+	</scm>
+</project>
