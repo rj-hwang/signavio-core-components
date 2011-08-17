@@ -9,9 +9,9 @@
 				{
 					"id":"name",
 					"type":"String",
-					"title":"Name",
+					"title":"名称",
 					"value":"",
-					"description":"The descriptive name of the BPMN element.",
+					"description":"BPMN元素的描述性名称",
 					"description_de":"Bezeichnung des BPMN-Elementes.",
 					"readonly":false,
 					"optional":true,
@@ -22,10 +22,10 @@
 				{
 					"id":"documentation",
 					"type":"Text",
-					"title":"Documentation",
+					"title":"说明",
 					"title_de":"Dokumentation",
 					"value":"",
-					"description":"This attribute is used to annotate the BPMN element, such as descriptions and other documentation.",
+					"description":"BPMN元素的详细说明",
 					"description_de":"Der Modellierer kann weiteren Text zur Dokumentation des BPMN-Elementes einfügen.",
 					"readonly":false,
 					"optional":true,
@@ -36,7 +36,7 @@
 				{
 					"id":"auditing",
 					"type":"Text",
-					"title":"Auditing",
+					"title":"审计",
 					"title_de":"Prüfung",
 					"value":"",
 					"description":"A hook for specifying audit related properties. Auditing can only be defined for a Process.",
@@ -49,7 +49,7 @@
 				{
 					"id":"monitoring",
 					"type":"Text",
-					"title":"Monitoring",
+					"title":"监控",
 					"title_de":"Überwachung",
 					"value":"",
 					"description":"A hook for specifying monitoring related properties. Monitoring can only be defined for a Process.",
@@ -67,7 +67,7 @@
 				{
 					"id":"bgcolor",
 					"type":"Color",
-					"title":"BackgroundColor",
+					"title":"背景颜色",
 					"title_de":"Hintergrundfarbe",
 					"value":"#ffffff",
 					"description":"",
@@ -410,7 +410,7 @@
 				{
 					"id":"version",
 					"type":"String",
-					"title":"Version",
+					"title":"版本",
 					"value":"",
 					"description":"This defines the Version number of the Diagram.",
 					"description_de":"Setzt die Versionsnummer des Diagramms.",
@@ -420,7 +420,7 @@
 				{
 					"id":"author",
 					"type":"String",
-					"title":"Author",
+					"title":"作者",
 					"title_de":"Autor",
 					"value":"",
 					"description":"This holds the name of the author of the Diagram.",
@@ -431,7 +431,7 @@
 				{
 					"id":"language",
 					"type":"String",
-					"title":"Language",
+					"title":"语言",
 					"title_de":"Sprache",
 					"value":"English",
 					"value_de":"Deutsch",
@@ -504,7 +504,7 @@
 				{
 					"id":"creationdate",
 					"type":"Date",
-					"title":"CreationDate",
+					"title":"创建时间",
 					"title_de":"Erstellt am",
 					"value":"",
 					"description":"This defines the date on which the Diagram was created.",
@@ -516,7 +516,7 @@
 				{
 					"id":"modificationdate",
 					"type":"Date",
-					"title":"ModificationDate",
+					"title":"最后修改时间",
 					"title_de":"Geändert am",
 					"value":"",
 					"description":"This defines the date on which the Diagram was last modified.",
@@ -1381,7 +1381,7 @@
 				{
 					"id":"tasktype",
 					"type":"Choice",
-					"title":"TaskType",
+					"title":"环节类型",
 					"title_de":"Tasktyp",
 					"value":"None",
 					"description":"",
@@ -1391,14 +1391,14 @@
 					"items":[
 						{
 							"id":"c1",
-							"title":"None",
+							"title":"无",
 							"title_de":"Kein Typ",
 							"value":"None",
 							"refToView":"none"
 						},
 						{
 							"id":"c2",
-							"title":"Send",
+							"title":"发送",
 							"title_de":"Sendend",
 							"value":"Send",
 							"icon" : "activity/list/type.send.png",
@@ -1406,7 +1406,7 @@
 						},
 						{
 							"id":"c3",
-							"title":"Receive",
+							"title":"接收",
 							"title_de":"Empfangend",
 							"value":"Receive",
 							"icon" : "activity/list/type.receive.png",
@@ -1414,7 +1414,7 @@
 						},
 						{
 							"id":"c4",
-							"title":"User",
+							"title":"用户",
 							"title_de":"Benutzer",
 							"value":"User",
 							"icon" : "activity/list/type.user.png",
@@ -1422,7 +1422,7 @@
 						},
 						{
 							"id":"c5",
-							"title":"Manual",
+							"title":"手动",
 							"title_de":"Manuell",
 							"value":"Manual",
 							"icon" : "activity/list/type.manual.png",
@@ -1430,7 +1430,7 @@
 						},
 						{
 							"id":"c6",
-							"title":"Service",
+							"title":"服务",
 							"title_de":"Service",
 							"value":"Service",
 							"icon" : "activity/list/type.service.png",
@@ -1438,7 +1438,7 @@
 						},
 						{
 							"id":"c7",
-							"title":"Business Rule",
+							"title":"业务规则",
 							"title_de":"Geschäftsregel",
 							"value":"Business Rule",
 							"icon" : "activity/list/type.business.rule.png",
@@ -1446,7 +1446,7 @@
 						},
 						{
 							"id":"c8",
-							"title":"Script",
+							"title":"脚本",
 							"title_de":"Skript",
 							"value":"Script",
 							"icon" : "activity/list/type.script.png",
@@ -1631,7 +1631,7 @@
 				{
 					"id":"bgcolor",
 					"type":"Color",
-					"title":"BackgroundColor",
+					"title":"背景颜色",
 					"title_de":"Hintergrundfarbe",
 					"value":"#ffffcc",
 					"description":"",
@@ -2316,11 +2316,11 @@
 		{
 			"type" : 			"node",
 			"id": 				"Task",
-			"title" : 			"Task",
+			"title" : 			"环节",
 			"title_de" : 		"Task",
 			"groups" : 			["Activities"],
 			"groups_de" :		["Aktivitäten"],
-			"description" : 	"A task is a unit of work - the job to be performed.",
+			"description" : 	"一个环节代表一个工作单元 - 需要执行的工作任务。",
 			"description_de" : 	"Eine Task ist eine Arbeitseinheit. Sie repräsentiert die Aufgabe, die zu tun ist.",
 			"view":"<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?> <svg    xmlns=\"http://www.w3.org/2000/svg\"    xmlns:svg=\"http://www.w3.org/2000/svg\"    xmlns:oryx=\"http://www.b3mn.org/oryx\"    xmlns:xlink=\"http://www.w3.org/1999/xlink\"     width=\"102\"    height=\"82\"    version=\"1.0\">   <defs></defs>   <oryx:magnets>    <oryx:magnet oryx:cx=\"1\" oryx:cy=\"20\" oryx:anchors=\"left\" />    <oryx:magnet oryx:cx=\"1\" oryx:cy=\"40\" oryx:anchors=\"left\" />    <oryx:magnet oryx:cx=\"1\" oryx:cy=\"60\" oryx:anchors=\"left\" />        <oryx:magnet oryx:cx=\"25\" oryx:cy=\"79\" oryx:anchors=\"bottom\" />    <oryx:magnet oryx:cx=\"50\" oryx:cy=\"79\" oryx:anchors=\"bottom\" />    <oryx:magnet oryx:cx=\"75\" oryx:cy=\"79\" oryx:anchors=\"bottom\" />        <oryx:magnet oryx:cx=\"99\" oryx:cy=\"20\" oryx:anchors=\"right\" />    <oryx:magnet oryx:cx=\"99\" oryx:cy=\"40\" oryx:anchors=\"right\" />    <oryx:magnet oryx:cx=\"99\" oryx:cy=\"60\" oryx:anchors=\"right\" />        <oryx:magnet oryx:cx=\"25\" oryx:cy=\"1\" oryx:anchors=\"top\" />    <oryx:magnet oryx:cx=\"50\" oryx:cy=\"1\" oryx:anchors=\"top\" />    <oryx:magnet oryx:cx=\"75\" oryx:cy=\"1\" oryx:anchors=\"top\" />        <oryx:magnet oryx:cx=\"50\" oryx:cy=\"40\" oryx:default=\"yes\" />   </oryx:magnets>   <g pointer-events=\"fill\" oryx:minimumSize=\"50 40\">    <defs>   <radialGradient id=\"background\" cx=\"10%\" cy=\"10%\" r=\"100%\" fx=\"10%\" fy=\"10%\">    <stop offset=\"0%\" stop-color=\"#ffffff\" stop-opacity=\"1\"/>    <stop id=\"fill_el\" offset=\"100%\" stop-color=\"#ffffcc\" stop-opacity=\"1\"/>   </radialGradient>  </defs>    <rect id=\"text_frame\" oryx:anchors=\"bottom top right left\" x=\"1\" y=\"1\" width=\"94\" height=\"79\" rx=\"10\" ry=\"10\" stroke=\"none\" stroke-width=\"0\" fill=\"none\" />     <rect id=\"callActivity\" oryx:resize=\"vertical horizontal\" oryx:anchors=\"bottom top right left\" x=\"0\" y=\"0\" width=\"100\" height=\"80\" rx=\"10\" ry=\"10\" stroke=\"black\" stroke-width=\"4\" fill=\"none\" />  <rect id=\"bg_frame\" oryx:resize=\"vertical horizontal\" x=\"0\" y=\"0\" width=\"100\" height=\"80\" rx=\"10\" ry=\"10\" stroke=\"black\" stroke-width=\"1\" fill=\"url(#background) #ffffcc\" />   <text     font-size=\"12\"     id=\"text_name\"     x=\"50\"     y=\"40\"     oryx:align=\"middle center\"    oryx:fittoelem=\"text_frame\"    stroke=\"black\">   </text>     <g id=\"manualTask\" transform=\"scale(0.7,0.7) translate(8,8)\" display=\"none\">      <path oryx:anchors=\"top left\" id=\"hand\"  style=\"opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1\"     d=\"M0.5,3.751l4.083-3.25c0,0,11.166,0.083,12.083,0.083s-2.417,2.917-1.5,2.917     s11.667,0,12.584,0c1.166,1.708-0.168,3.167-0.834,3.667s0.875,1.917-1,4.417c-0.75,0.25,0.75,1.875-1.333,3.333     c-1.167,0.583,0.583,1.542-1.25,2.833c-1.167,0-20.833,0.083-20.833,0.083l-2-1.333V3.751z\"/>   <path oryx:anchors=\"top left\" id=\"finger\" style=\"opacity:1;fill:none; stroke:#000000; stroke-width:2\" d=\"M 13.5 7 L 27 7\" />   <path oryx:anchors=\"top left\" id=\"finger1\" style=\"opacity:1;fill:none; stroke:#000000; stroke-width:2\" d=\"M 13.5 11 L 26 11\" />   <path oryx:anchors=\"top left\" id=\"finger2\" style=\"opacity:1;fill:none; stroke:#000000; stroke-width:1.5\" d=\"M 14 14.5 L 25 14.5\" />   <path oryx:anchors=\"top left\" id=\"thumb\" style=\"opacity:1;fill:none; stroke:#000000; stroke-width:1.5\" d=\"M 8.2 3.1 L 15 3.1\" />  </g>    <g id=\"businessRuleTask\" transform=\"scale(0.7,0.7) translate(8,8)\" display=\"none\">   <rect oryx:anchors=\"top left\" id=\"top\" x=\"0\" y=\"0\" width=\"22\" height=\"4\" style=\"opacity:1;fill:#B3B1B3;fill-opacity:1;stroke:#000000\"/>   <rect oryx:anchors=\"top left\" id=\"rect\" x=\"0\" y=\"4\" style=\"opacity:1;fill:none;stroke:#000000\" width=\"22\" height=\"12\"/>   <path oryx:anchors=\"top left\" id=\"row\" style=\"opacity:1;fill:none;stroke:#000000\" d=\"M 0 10 L 22 10\" />   <path oryx:anchors=\"top left\" id=\"col\" style=\"opacity:1; fill:none; stroke:#000000\" d=\"M 7 4 L 7 16\" />  </g>    <g id=\"scriptTask\" transform=\"scale(0.7,0.7) translate(8,8)\" display=\"none\">   <path oryx:anchors=\"top left\" id=\"paper\" style=\"opacity:1;fill:none;stroke:#000000\"    d=\"M6.402,0.5h14.5c0,0-5.833,2.833-5.833,5.583s4.417,6,4.417,9.167    s-4.167,5.083-4.167,5.083H0.235c0,0,5-2.667,5-5s-4.583-6.75-4.583-9.25S6.402,0.5,6.402,0.5z\"/>   <path oryx:anchors=\"top left\" id=\"line1\" style=\"opacity:1;fill:none;stroke:#000000;stroke-width:1.5\" d=\"M 3.5 4.5 L 13.5 4.5\" />   <path oryx:anchors=\"top left\" id=\"line2\" style=\"opacity:1;fill:none;stroke:#000000;stroke-width:1.5\" d=\"M 3.8 8.5 L 13.8 8.5\" />   <path oryx:anchors=\"top left\"  id=\"line3\" style=\"opacity:1;fill:none;stroke:#000000;stroke-width:1.5\" d=\"M 6.3 12.5 L 16.3 12.5\" />   <path oryx:anchors=\"top left\" id=\"line4\" style=\"opacity:1;fill:none;stroke:#000000;stroke-width:1.5\" d=\"M 6.5 16.5 L 16.5 16.5\" />  </g>    <g id=\"userTask\" transform=\"scale(0.7,0.7) translate(8,8)\" display=\"none\">   <path oryx:anchors=\"top left\" style=\"opacity:1;fill:#F4F6F7;stroke:#000000\"    d=\"M0.585,24.167h24.083v-7.833c0,0-2.333-3.917-7.083-5.167h-9.25    c-4.417,1.333-7.833,5.75-7.833,5.75L0.585,24.167z\"/>   <path oryx:anchors=\"top left\" style=\"opacity:1;fill:none;stroke:#000000\" d=\"M 6 20 L 6 24\" />   <path oryx:anchors=\"top left\" style=\"opacity:1;fill:none;stroke:#000000\" d=\"M 20 20 L 20 24\" />   <circle oryx:anchors=\"top left\" fill=\"#000000\" stroke=\"#000000\" cx=\"13.002\" cy=\"5.916\" r=\"5.417\"/>   <path oryx:anchors=\"top left\" style=\"opacity:1;fill:#F0EFF0;stroke:#000000\"   d=\"M8.043,7.083c0,0,2.814-2.426,5.376-1.807s4.624-0.693,4.624-0.693    c0.25,1.688,0.042,3.75-1.458,5.584c0,0,1.083,0.75,1.083,1.5s0.125,1.875-1,3s-5.5,1.25-6.75,0S8.668,12.834,8.668,12    s0.583-1.25,1.25-1.917C8.835,9.5,7.419,7.708,8.043,7.083z\"/>  </g>    <g id=\"serviceTask\" transform=\"scale(0.7,0.7) translate(8,8)\" display=\"none\">   <polygon oryx:anchors=\"top left\" id=\"teethForeground\" style=\"opacity:1;fill:#ffffff;stroke:#000000\" points=\"15.392,5.064 17.954,2.502 20.347,4.895 17.786,7.455     18.729,9.732 22.353,9.732 22.353,13.115 18.731,13.115 17.788,15.392 20.351,17.955 17.958,20.347 15.397,17.786 13.12,18.729     13.12,22.353 9.737,22.353 9.737,18.731 7.46,17.788 4.897,20.35 2.506,17.958 5.066,15.397 4.124,13.12 0.5,13.12 0.5,9.737     4.121,9.737 5.065,7.461 2.503,4.898 4.895,2.506 7.455,5.066 9.732,4.125 9.732,0.5 13.116,0.5 13.116,4.121 \"/>   <circle oryx:anchors=\"top left\" id=\"ringForeground\" style=\"opacity:1;fill:none;stroke:#000000\" cx=\"11.427\" cy=\"11.426\" r=\"3.714\"/>   <polygon oryx:anchors=\"top left\" id=\"teethBackground\" style=\"opacity:1;fill:#ffffff;stroke:#000000\" points=\"21.392,11.064 23.954,8.502 26.347,10.895 23.786,13.455     24.729,15.732 28.353,15.732 28.353,19.115 24.731,19.115 23.788,21.392 26.351,23.955 23.958,26.347 21.397,23.786 19.12,24.729     19.12,28.353 15.737,28.353 15.737,24.731 13.46,23.788 10.897,26.35 8.506,23.958 11.066,21.397 10.124,19.12 6.5,19.12     6.5,15.737 10.121,15.737 11.065,13.461 8.503,10.898 10.895,8.506 13.455,11.066 15.732,10.125 15.732,6.5 19.116,6.5     19.116,10.121 \"/>   <circle oryx:anchors=\"top left\" id=\"ringBackground\" style=\"opacity:1;fill:none;stroke:#000000\" cx=\"17.427\" cy=\"17.426\" r=\"3.714\"/>  </g>    <g id=\"sendTask\" display=\"none\">   <path oryx:anchors=\"left top\" stroke=\"white\" fill=\"black\" stroke-width=\"1\" d=\"M8,11 L8,21 L24,21 L24,11 L16,17z\"/>   <path oryx:anchors=\"left top\" stroke=\"white\" fill=\"black\" stroke-width=\"1\" d=\"M7,10 L16,17 L25 10z\"/>  </g>    <g id=\"receiveTask\" display=\"none\">   <path oryx:anchors=\"left top\" stroke=\"black\" fill=\"none\" stroke-width=\"1\" d=\"M8,11 L8,21 L24,21 L24,11z M8,11 L16,17 L24,11\" />   <circle id=\"instantiate\" cx=\"16\" cy=\"16\" r=\"13\" stroke=\"black\" fill=\"none\" stroke-width=\"1\"/>  </g>    <g id=\"none\"></g>  <g id=\"loop\" display=\"none\">       <path          oryx:anchors=\"bottom\"          style=\"opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.0999999;stroke-dasharray:none;stroke-opacity:1\"          id=\"path2396\"          d=\"M 47.608384,75.188343 L 47.608384,78.188343 L 44.608384,78.188343 M 47.608384,78.188343 A 4.875,4.875 0 1 1 51.639336,78.189378\"          />     </g>      <g id=\"parallel\" display=\"none\">   <path oryx:anchors=\"bottom\" fill=\"none\" stroke=\"black\" d=\"M46 70 v8 M50 70 v8 M54 70 v8\" stroke-width=\"2\" />  </g>  <g id=\"sequential\" display=\"none\">   <path oryx:anchors=\"bottom\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" d=\"M46,76h10M46,72h10 M46,68h10\"/>  </g>     <g id=\"compensation\" display=\"none\">   <path oryx:anchors=\"bottom\" fill=\"none\" stroke=\"black\" d=\"M 62 74 L 66 70 L 66 78 L 62 74 L 62 70 L 58 74 L 62 78 L 62 74\" stroke-width=\"1\" />  </g>   </g> </svg> ",
 			"icon" : 			"activity/task.png",
@@ -2350,11 +2350,11 @@
 		{
 			"type" : 			"node",
 			"id" :				"CollapsedSubprocess",
-			"title" : 			"Collapsed Subprocess",
+			"title" : 			"收起的子流程",
 			"title_de" :		"Zugeklappter Unterprozess",
 			"groups" :			["Activities"],
 			"groups_de" :		["Aktivitäten"],
-			"description" :		"A subprocess is a decomposable activity. It can be linked to another process diagram.",
+			"description" :		"子流程是一种可分解的活动，通过它链接到其它的流程。",
 			"description_de" :	"Ein Unterprozess ist eine verfeinerbare Aktivität. Er kann mit einem anderen Prozessdiagramm verlinkt werden.",
 			"view":"<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?> <svg    xmlns=\"http://www.w3.org/2000/svg\"    xmlns:svg=\"http://www.w3.org/2000/svg\"    xmlns:oryx=\"http://www.b3mn.org/oryx\"    xmlns:xlink=\"http://www.w3.org/1999/xlink\"    width=\"100\"    height=\"80\"    version=\"1.0\">   <defs></defs>   <oryx:magnets>    <oryx:magnet oryx:cx=\"1\" oryx:cy=\"20\" oryx:anchors=\"left\" />    <oryx:magnet oryx:cx=\"1\" oryx:cy=\"40\" oryx:anchors=\"left\" />    <oryx:magnet oryx:cx=\"1\" oryx:cy=\"60\" oryx:anchors=\"left\" />        <oryx:magnet oryx:cx=\"25\" oryx:cy=\"79\" oryx:anchors=\"bottom\" />    <oryx:magnet oryx:cx=\"50\" oryx:cy=\"79\" oryx:anchors=\"bottom\" />    <oryx:magnet oryx:cx=\"75\" oryx:cy=\"79\" oryx:anchors=\"bottom\" />        <oryx:magnet oryx:cx=\"99\" oryx:cy=\"20\" oryx:anchors=\"right\" />    <oryx:magnet oryx:cx=\"99\" oryx:cy=\"40\" oryx:anchors=\"right\" />    <oryx:magnet oryx:cx=\"99\" oryx:cy=\"60\" oryx:anchors=\"right\" />        <oryx:magnet oryx:cx=\"25\" oryx:cy=\"1\" oryx:anchors=\"top\" />    <oryx:magnet oryx:cx=\"50\" oryx:cy=\"1\" oryx:anchors=\"top\" />    <oryx:magnet oryx:cx=\"75\" oryx:cy=\"1\" oryx:anchors=\"top\" />        <oryx:magnet oryx:cx=\"50\" oryx:cy=\"40\" oryx:default=\"yes\" />   </oryx:magnets>   <g pointer-events=\"fill\" oryx:minimumSize=\"80 60\">    <defs>   <radialGradient id=\"background\" cx=\"10%\" cy=\"10%\" r=\"100%\" fx=\"10%\" fy=\"10%\">    <stop offset=\"0%\" stop-color=\"#ffffff\" stop-opacity=\"1\"/>    <stop id=\"fill_el\" offset=\"100%\" stop-color=\"#ffffcc\" stop-opacity=\"1\"/>   </radialGradient>  </defs>    <rect id=\"text_frame\" oryx:anchors=\"bottom top right left\" x=\"1\" y=\"1\" width=\"94\" height=\"79\" rx=\"10\" ry=\"10\" stroke=\"none\" stroke-width=\"0\" fill=\"none\" />  <rect id=\"bg_frame\" oryx:anchors=\"bottom top right left\" x=\"0\" y=\"0\" width=\"100\" height=\"80\" rx=\"10\" ry=\"10\" stroke=\"black\" stroke-width=\"1\" fill=\"url(#background) #ffffcc\" />     <rect id=\"callActivity\" oryx:resize=\"vertical horizontal\" oryx:anchors=\"bottom top right left\" x=\"0\" y=\"0\" width=\"100\" height=\"80\" rx=\"10\" ry=\"10\" stroke=\"black\" stroke-width=\"4\" fill=\"none\" />  <rect id=\"border\" oryx:anchors=\"top bottom left right\" oryx:resize=\"vertical horizontal\" x=\"2.5\" y=\"2.5\" width=\"95\" height=\"75\" rx=\"8\" ry=\"8\" stroke=\"black\" stroke-width=\"1\" fill=\"none\" />      <text     font-size=\"12\"    id=\"text_name\"     x=\"50\"     y=\"40\"     oryx:align=\"middle center\"    oryx:fittoelem=\"text_frame\"    stroke=\"black\">   </text>         <a id=\"u\" target=\"_blank\">    <g id=\"b\"     oryx:anchors=\"bottom\">         <rect oryx:anchors=\"bottom\" x=\"44\" y=\"66\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"black\" stroke-width=\"1\" />    <path oryx:anchors=\"bottom\" fill=\"none\" stroke=\"black\" d=\"M51 68 v10 M 46 73 h10\" stroke-width=\"1\"/>      </g>  </a>  <g id=\"none\"></g>  <g id=\"loop\">   <path           oryx:anchors=\"bottom\"          style=\"opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.0999999;stroke-dasharray:none;stroke-opacity:1\"           id=\"path2396\"           d=\"M 50.5,72 L 50.5,75 L 47.5,75 M 50.5,75 A 4.875,4.875 0 1 1 54.5,75\"    transform=\"translate(-15.5,0)\"           />  </g>     <g id=\"parallel\">   <path oryx:anchors=\"bottom\" fill=\"none\" stroke=\"black\" d=\"M47 65 v10 M51 65 v10 M55 65 v10\" stroke-width=\"2\" transform=\"translate(-15 0)\" />  </g>  <g id=\"sequential\">   <path oryx:anchors=\"bottom\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" d=\"M42,66H32 M42,70H32 M42,74H32\"/>  </g>      <g id=\"adhoc\">   <text     oryx:anchors=\"bottom\"    x=\"61\"    y=\"77\"    font-size=\"20\"    transform=\"translate(14,0)\"   >~</text>  </g>  <g id=\"compensation\">   <path oryx:anchors=\"bottom\" fill=\"none\" stroke=\"black\" d=\"M 51 70 L 56 65 L 56 75z M45.7 70 L50.7 75 L 50.7 65z\" stroke-width=\"1\"   transform=\"translate(-28,0)\" />  </g>   </g> </svg> ",
 			"icon" :			"activity/subprocess.png",
@@ -2385,7 +2385,7 @@
 				{
 					"id":"bgcolor",
 					"type":"Color",
-					"title":"BackgroundColor",
+					"title":"背景颜色",
 					"title_de":"Hintergrundfarbe",
 					"value":"#ffffcc",
 					"description":"",
@@ -2411,11 +2411,11 @@
 		{
 			"type" : 			"node",
 			"id" :				"Subprocess",
-			"title" :			"Expanded Subprocess",
+			"title" :			"展开的子流程",
 			"title_de" :		"Aufgeklappter Unterprozess",
 			"groups" :			["Activities"],
 			"groups_de" :		["Aktivitäten"],
-			"description" :		"A subprocess is a decomposable activity. An expanded subprocess contains a valid BPMN diagram.",
+			"description" :		"子流程是一种可分解的活动，展开的子流程包含一个有效的BPMN流程。",
 			"description_de" :	"Ein Unterprozess ist eine verfeinerte Aktivität. Ein aufgeklappter Unterprozess enthält in sich ein eigenes BPMN Diagramm, welches direkt innerhalb modelliert wird.",
 			"view":"<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?> <svg    xmlns=\"http://www.w3.org/2000/svg\"    xmlns:svg=\"http://www.w3.org/2000/svg\"    xmlns:oryx=\"http://www.b3mn.org/oryx\"    xmlns:xlink=\"http://www.w3.org/1999/xlink\"    width=\"200\"    height=\"160\"    version=\"1.0\">   <defs></defs>   <oryx:magnets>    <oryx:magnet oryx:cx=\"1\" oryx:cy=\"50\" oryx:anchors=\"left\" />    <oryx:magnet oryx:cx=\"1\" oryx:cy=\"80\" oryx:anchors=\"left\" />    <oryx:magnet oryx:cx=\"1\" oryx:cy=\"110\" oryx:anchors=\"left\" />        <oryx:magnet oryx:cx=\"70\" oryx:cy=\"159\" oryx:anchors=\"bottom\" />    <oryx:magnet oryx:cx=\"100\" oryx:cy=\"159\" oryx:anchors=\"bottom\" />    <oryx:magnet oryx:cx=\"130\" oryx:cy=\"159\" oryx:anchors=\"bottom\" />        <oryx:magnet oryx:cx=\"199\" oryx:cy=\"50\" oryx:anchors=\"right\" />    <oryx:magnet oryx:cx=\"199\" oryx:cy=\"80\" oryx:anchors=\"right\" />    <oryx:magnet oryx:cx=\"199\" oryx:cy=\"110\" oryx:anchors=\"right\" />        <oryx:magnet oryx:cx=\"70\" oryx:cy=\"1\" oryx:anchors=\"top\" />    <oryx:magnet oryx:cx=\"100\" oryx:cy=\"1\" oryx:anchors=\"top\" />    <oryx:magnet oryx:cx=\"130\" oryx:cy=\"1\" oryx:anchors=\"top\" />        <oryx:magnet oryx:cx=\"100\" oryx:cy=\"80\" oryx:default=\"yes\" />   </oryx:magnets>   <g pointer-events=\"fill\" oryx:minimumSize=\"120 100\" oryx:maximumSize=\"\" >    <defs>   <radialGradient id=\"background\" cx=\"10%\" cy=\"10%\" r=\"100%\" fx=\"10%\" fy=\"10%\">    <stop offset=\"0%\" stop-color=\"#ffffff\" stop-opacity=\"1\"/>    <stop id=\"fill_el\" offset=\"100%\" stop-color=\"#ffffff\" stop-opacity=\"1\"/>   </radialGradient>  </defs>       <rect id=\"text_frame\" oryx:anchors=\"bottom top right left\" x=\"0\" y=\"0\" width=\"190\" height=\"160\" rx=\"10\" ry=\"10\" stroke=\"none\" stroke-width=\"0\" fill=\"none\" />  <rect id=\"bg_frame\" oryx:anchors=\"bottom top right left\" x=\"0\" y=\"0\" width=\"200\" height=\"160\" rx=\"10\" ry=\"10\" stroke=\"black\" stroke-width=\"1\" fill=\"url(#background) white\" />  <rect id=\"callActivity\" oryx:anchors=\"bottom top right left\" oryx:resize=\"vertical horizontal\" x=\"0\" y=\"0\" width=\"200\" height=\"160\" rx=\"10\" ry=\"10\" stroke=\"black\" stroke-width=\"4\" fill=\"none\" />     <rect id=\"border\" oryx:anchors=\"top bottom left right\" oryx:resize=\"vertical horizontal\" x=\"2.5\" y=\"2.5\" width=\"195\" height=\"155\" rx=\"8\" ry=\"8\" stroke=\"black\" stroke-width=\"1\" fill=\"none\" />      <text     font-size=\"12\"     id=\"text_name\"     x=\"8\"     y=\"10\"     oryx:align=\"top left\"    oryx:fittoelem=\"text_frame\"    oryx:anchors=\"left top\"     stroke=\"black\"></text>        <g id=\"none\"></g>  <g id=\"loop\">   <path           oryx:anchors=\"bottom\"          style=\"opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.0999999;stroke-dasharray:none;stroke-opacity:1\"           id=\"path2396\"           d=\"M 100.5,152 L 100.5,155 L 97.5,155 M 100.5,155 A 4.875,4.875 0 1 1 104.5,155\"    />  </g>      <g id=\"parallel\">   <path oryx:anchors=\"bottom\" fill=\"none\" stroke=\"black\" d=\"M97 145 v10 M101 145 v10 M105 145 v10\" stroke-width=\"2\" />  </g>  <g id=\"sequential\">   <path oryx:anchors=\"bottom\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" d=\"M96,154h10 M96,150h10 M96,146h10\"/>  </g>      <g id=\"adhoc\">   <text     oryx:anchors=\"bottom\"    x=\"101\"    y=\"157\"    font-size=\"20\"    transform=\"translate(8,0)\"   >~</text>  </g>  <g id=\"compensation\">   <path oryx:anchors=\"bottom\" fill=\"none\" stroke=\"black\" d=\"M 101 150 L 106 145 L 106 155z M95.7 150 L 100.7 155 L 100.7 145z\" stroke-width=\"1\"   transform=\"translate(-16,0)\" />  </g>   </g> </svg> ",
 			"icon" :			"activity/expanded.subprocess.png",
@@ -2459,7 +2459,7 @@
 				{
 					"id":"bgcolor",
 					"type":"Color",
-					"title":"BackgroundColor",
+					"title":"背景颜色",
 					"title_de":"Hintergrundfarbe",
 					"value":"#ffffff",
 					"description":"",
@@ -2486,7 +2486,7 @@
 		{
 			"type" : 			"node",
 			"id" :				"CollapsedEventSubprocess",
-			"title" : 			"Collapsed Event-Subprocess",
+			"title" : 			"收起的事件子流程",
 			"title_de" :		"Zugeklappter Ereignis-Unterprozess",
 			"groups" :			["Activities"],
 			"groups_de" :		["Aktivitäten"],
@@ -2605,7 +2605,7 @@
 				{
 					"id":"bgcolor",
 					"type":"Color",
-					"title":"BackgroundColor",
+					"title":"背景颜色",
 					"title_de":"Hintergrundfarbe",
 					"value":"#ffffff",
 					"description":"",
@@ -2626,7 +2626,7 @@
 		{
 			"type" : 			"node",
 			"id" :				"EventSubprocess",
-			"title" :			"Event-Subprocess",
+			"title" :			"事件子流程",
 			"title_de" :		"Ereignis-Unterprozess",
 			"groups" :			["Activities"],
 			"groups_de" :		["Aktivitäten"],
@@ -2661,7 +2661,7 @@
 				{
 					"id":"bgcolor",
 					"type":"Color",
-					"title":"BackgroundColor",
+					"title":"背景颜色",
 					"title_de":"Hintergrundfarbe",
 					"value":"#ffffff",
 					"description":"",
@@ -3099,7 +3099,7 @@
 				{
 					"id":"bgcolor",
 					"type":"Color",
-					"title":"BackgroundColor",
+					"title":"背景颜色",
 					"title_de":"Hintergrundfarbe",
 					"value":"#ffffff",
 					"description":"",
@@ -3174,7 +3174,7 @@
 				{
 					"id":"bgcolor",
 					"type":"Color",
-					"title":"BackgroundColor",
+					"title":"背景颜色",
 					"title_de":"Hintergrundfarbe",
 					"value":"",
 					"description":"",
@@ -3425,7 +3425,7 @@
 				{
 					"id":"bgcolor",
 					"type":"Color",
-					"title":"BackgroundColor",
+					"title":"背景颜色",
 					"title_de":"Hintergrundfarbe",
 					"value":"#e1e1e1",
 					"description":"",
@@ -3496,7 +3496,7 @@
 				{
 					"id":"bgcolor",
 					"type":"Color",
-					"title":"BackgroundColor",
+					"title":"背景颜色",
 					"title_de":"Hintergrundfarbe",
 					"value":"#ffffff",
 					"description":"",
@@ -3558,7 +3558,7 @@
 				{
 					"id":"bgcolor",
 					"type":"Color",
-					"title":"BackgroundColor",
+					"title":"背景颜色",
 					"title_de":"Hintergrundfarbe",
 					"value":"#ffffff",
 					"description":"",
@@ -5165,7 +5165,7 @@
 				{
 					"id":"ConditionType",
 					"type":"Choice",
-					"title":"ConditionType",
+					"title":"条件类型",
 					"title_de":"Bedingungstyp",
 					"value":"None",
 					"description":"Determine the typ of the flow object.",
@@ -5175,13 +5175,13 @@
 					"items": [
 						{
 							"id":"none",
-							"title":"Standard",
+							"title":"标准",
 							"title_de":"Standard",
 							"value":"None"
 						},
 						{
 							"id":"expression",
-							"title":"Conditional Flow",
+							"title":"条件流向",
 							"title_de":"Bedingter Fluss",
 							"value":"Expression",
 							"icon" : "connector/list/type.expression.png",
@@ -5189,7 +5189,7 @@
 						},
 						{
 							"id":"default",
-							"title":"Default Flow",
+							"title":"默认流向",
 							"title_de":"Standardfluss",
 							"value":"Default",
 							"icon" : "connector/list/type.default.png",
@@ -5200,7 +5200,7 @@
 				{
 					"id":"conditionexpression",
 					"type":"String",
-					"title":"Condition Expression",
+					"title":"条件表达式",
 					"title_de":"Bedingungsausdruck",
 					"value":"",
 					"description":"",
